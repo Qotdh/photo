@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dyaa.com/Gallery</title>
+    <!-- إضافة Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- إضافة Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <!-- رابط ملف CSS الخاص بنا -->
+    <link rel="stylesheet" href="styles.css">
+        <!-- ===== jsdelivr ===== -->
+        <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.0/lazysizes.min.js" async></script>
+        <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">Dyaa Eddin</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#"></a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="https://dhiya.netlify.app/">About Me</a></li>
+                    <li><a href="https://dyacontact.netlify.app/">Contact</a></li>
+                    <li><a href="#gaga">Gallery</a></li>
+
+                </ul>
+            </div>
+<i href="./index.html" class='bx bxs-camera'></i>
+        </div>
+    </nav>
+<section class="gif">
+  <video autoplay muted loop id="background-video">
+            <source src="bg/cam.webm" type="video/webm">
+
+            Your browser does not support the video tag.
+        </video>
+</section>
+<body>
+ 
+    <h1 id="gaga">My Gallery</h1><hr>
+    <br>
+    <br>
+    <br>
+    <div id="gallery" class="container-fluid">
+      
+        <a data-fancybox="gallery" href="img/1.webp"><img class="lazyload" data-src="img/1.webp"></a>
+        <a data-fancybox="gallery" href="img/2.webp"><img class="lazyload" data-src="img/2.webp"></a>
+        <a data-fancybox="gallery" href="img/3.webp"><img class="lazyload" data-src="img/3.webp"></a>
+        <a data-fancybox="gallery" href="img/4.webp"><img  data-src="img/4.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/6.webp"><img  data-src="img/6.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/7.webp"><img  data-src="img/7.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/5.webp"><img class="lazyload" data-src="img/5.webp"></a>
+        <a data-fancybox="gallery" href="img/8.webp"><img class="lazyload" data-src="img/8.webp"></a>
+        <a data-fancybox="gallery" href="img/9.webp"><img  data-src="img/9.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/10.webp"><img  data-src="img/10.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/11.webp"><img  data-src="img/11.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/12.webp"><img class="lazyload" data-src="img/12.webp"></a>
+        <a data-fancybox="gallery" href="img/13.webp"><img  data-src="img/13.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/14.webp"><img  data-src="img/14.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/15.webp"><img  data-src="img/15.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/16.webp"><img  data-src="img/16.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/17.webp"><img  data-src="img/17.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/18.webp"><img  data-src="img/18.webp" class="img-responsive lazyload"></a>
+        <a data-fancybox="gallery" href="img/19.webp"><img class="lazyload" data-src="img/19.webp"></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+ <footer>
+<svg viewBox="0 0 120 28">
+ <defs> 
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0  
+           0 1 0 0 0  
+           0 0 1 0 0  
+           0 0 0 13 -9" result="goo" />
+      <xfeBlend in="SourceGraphic" in2="goo" />
+    </filter>
+     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </defs> 
+
+   <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+   <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+ 
+ 
+  <g class="gooeff" filter="url(#goo)">
+  <circle class="drop drop1" cx="20" cy="2" r="8.8"  />
+  <circle class="drop drop2" cx="25" cy="2.5" r="7.5"  />
+  <circle class="drop drop3" cx="16" cy="2.8" r="9.2"  />
+  <circle class="drop drop4" cx="18" cy="2" r="8.8"  />
+  <circle class="drop drop5" cx="22" cy="2.5" r="7.5"  />
+  <circle class="drop drop6" cx="26" cy="2.8" r="9.2"  />
+  <circle class="drop drop1" cx="5" cy="4.4" r="8.8"  />
+  <circle class="drop drop2" cx="5" cy="4.1" r="7.5"  />
+  <circle class="drop drop3" cx="8" cy="3.8" r="9.2"  />
+  <circle class="drop drop4" cx="3" cy="4.4" r="8.8"  />
+  <circle class="drop drop5" cx="7" cy="4.1" r="7.5"  />
+  <circle class="drop drop6" cx="10" cy="4.3" r="9.2"  />
+  
+  <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"  />
+  <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"  />
+  <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"  />
+    <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"  />
+  <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"  />
+  <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"  />
+  <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+ </g>  
+    <!-- g mask="url(#xxx)">
+    <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    </g>
+  </g -->
+
+</svg>
+
+  <div class="blue"> 
+  <p class="footer p">
+    © 2024 Developed by
+   <br>
+   <a class="a" href="https://dhiya.netlify.app">ᗪㄚ卂卂</a>
+   </p>
+   </div>
+</footer>
+    <!-- إضافة jQuery و Fancybox JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    
+    <!--   lazy   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.0/lazysizes.min.js" async></script>
+   
+    <!-- رابط ملف JavaScript الخاص بنا -->
+    <script src="script.js"></script>
+    <script>
+
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+
+ 
+      
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+
+</script>
+</body>
+</html>
