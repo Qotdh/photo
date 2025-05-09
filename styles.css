@@ -76,7 +76,8 @@ h1 {
     column-count: 4;
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
-    column-gap: 20px;
+    column-gap: 20px; 
+    max-width: 800px;
 }
 
 @media (max-width: 1200px) {
